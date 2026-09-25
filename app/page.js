@@ -28,7 +28,7 @@ export default function Home() {
       <p>Describe a mood, place, or scent.</p>
 
       <p>Batch size:</p>
-      {[30, 50, 100].map((size) => (
+      {[10, 30, 50, 100].map((size) => (
         <button key={size} onClick={() => setBatchSize(size)} style={{ marginRight: 8 }}>
           {size} ml
         </button>
